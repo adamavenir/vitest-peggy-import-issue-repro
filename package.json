@@ -1,0 +1,15 @@
+{
+    "name": "mini-vitest-peggy",
+    "type": "module",
+    "scripts": {
+      "build:grammar": "node grammar/build-grammar.mjs",
+      "test": "npm run build:grammar && vitest run"
+    },
+    "dependencies": {
+      "peggy": "^4.2.0"
+    },
+    "devDependencies": {
+      "typescript": "^5.8.3",
+      "vitest": "^3.1.2"
+    }
+  }
